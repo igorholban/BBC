@@ -1,25 +1,204 @@
 body {
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    color: #333333;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+
+.column {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* #######################################################  TOP WHITE BAR#####################################   */
+
+#logo {
+    /* border: red solid 2px; */
+    padding: 15px 20px 15px 20px;
+}
+
+#signin-div {
+    /* border: red solid 2px; */
+    padding: 7px 20px 7px 20px;
+}
+
+#bell {
+    /* border: red solid 2px; */
+    padding: 18px 20px 18px 20px;
+    font-size: 18px;
+}
+
+#more-carretdown {
+    padding-left: 80px;
 }
 
 #topbar {
-    width: 1300px;
+    width: 100%;
     margin: 0 auto;
     height: 40px;
-}
-
-#logo {
-    position: relative;
-    top: 10px;
-    width: 100px;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .topbar-section {
     float: left;
     height: 100%;
-    border-left: 1px #cccccc solid;
+    /* border-left: 2px #cccccc solid; */
 }
+
+.floated {
+    border-left: 2px #cccccc solid;
+    /* border: red solid 2px; */
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 10px 25px 9px 25px;
+    color: #5a5a5a;
+}
+
+.floated:hover {
+    background-color: red;
+    color: white;
+}
+
+#searchbar[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #d6d6d6;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 0px 20px 0px 2px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#searchbar[type=text]:focus {
+    width: 90%;
+}
+
+#searchicon {
+    position: relative;
+    top: 8px;
+    right: 25px;
+}
+
+#searchbox {
+    height: 35px;
+    padding-top: 3px 3px;
+    ;
+}
+
+
+/* #######################################################  TOP WHITE BAR #####################################   */
+
+
+/* #######################################################  TOP RED BAR #####################################   */
+
+#second-topbar {
+    position: relative;
+    top: -13px;
+    background-color: rgb(165, 0, 0);
+    height: 100px;
+    width: 100%;
+}
+
+#title {
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+}
+
+#secondtopmenu {
+    position: relative;
+    left: -47px;
+}
+
+nav ul li {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-right: 1px solid rgba(161, 161, 161, 0.384);
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: red;
+}
+
+
+/* #######################################################  TOP RED BAR #####################################   */
+
+
+/* ####################################################### BIG ARTICLES #####################################   */
+
+.article-big {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    width: 50%;
+    float: left;
+}
+
+.image-article {
+    width: 65%;
+    float: left;
+    padding: 1%;
+}
+
+.text-article {
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+
+
+/* ####################################################### BIG ARTICLES #####################################   */
+
+
+/* ####################################################### SMALL ARTICLES #####################################   */
+
+.article-small {
+    position: relative;
+    background-color: lightgrey;
+}
+
+.image-article-small {
+    width: 100%;
+    padding: 1%;
+    float: left;
+}
+
+.text-article-small {
+    width: 100%;
+    padding: 1%;
+    float: left;
+}
+
+.col-3 {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    padding: 1%;
+    width: 30%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ####################################################### SMALL ARTICLES #####################################   */
